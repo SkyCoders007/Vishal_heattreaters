@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="@color/button_color_grey"-->
+        <!--android:layout_height="1dp">-->
+
+
+        <!--</View>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="8"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <android.support.v4.widget.NestedScrollView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <LinearLayout
+                            android:layout_margin="15dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:text="Invoice"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    android:textSize="22dp"
+                                    android:layout_height="match_parent" />
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_marginTop="15dp"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp">
+
+                                <LinearLayout
+
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+
+                                    <LinearLayout
+                                        android:weightSum="3"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+                                        <LinearLayout
+                                            android:layout_weight="0.5"
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:text="Name"
+                                                android:textStyle="bold"
+                                                android:textSize="22dp"
+                                                android:gravity="left|center"
+                                                android:layout_height="match_parent" />
+
+
+                                        </LinearLayout>
+
+
+                                        <LinearLayout
+
+                                            android:layout_weight="2.5"
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent">
+
+                                            <EditText
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent" />
+
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_weight="0.6"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+
+                                        <LinearLayout
+                                            android:layout_weight="0.7"
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:text="No"
+                                                android:textStyle="bold"
+                                                android:textSize="22dp"
+                                                android:gravity="left|center"
+                                                android:layout_height="match_parent" />
+
+
+                                        </LinearLayout>
+
+
+                                        <LinearLayout
+
+                                            android:layout_weight="2.5"
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent">
+
+                                            <EditText
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent" />
+
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"></LinearLayout>
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_marginTop="15dp"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp">
+
+                                <LinearLayout
+
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+
+                                    <LinearLayout
+                                        android:weightSum="3"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+                                        <LinearLayout
+                                            android:layout_weight="0.5"
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:text="Add."
+                                                android:textStyle="bold"
+                                                android:textSize="22dp"
+                                                android:gravity="left|center"
+                                                android:layout_height="match_parent" />
+
+
+                                        </LinearLayout>
+
+
+                                        <LinearLayout
+
+                                            android:layout_weight="2.5"
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent">
+
+                                            <EditText
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent" />
+
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_weight="0.6"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+
+                                        <LinearLayout
+                                            android:layout_weight="0.7"
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:text="Date"
+                                                android:textStyle="bold"
+                                                android:textSize="22dp"
+                                                android:gravity="left|center"
+                                                android:layout_height="match_parent" />
+
+
+                                        </LinearLayout>
+
+
+                                        <LinearLayout
+
+                                            android:layout_weight="2.5"
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent">
+
+                                            <EditText
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent" />
+
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"></LinearLayout>
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_marginTop="15dp"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp">
+
+                                <LinearLayout
+
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+
+                                    <LinearLayout
+                                        android:weightSum="1"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:text="Toke no."
+                                            android:gravity="center"
+                                            android:textStyle="bold"
+                                            android:textSize="14sp"
+                                            android:layout_height="match_parent" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:weightSum="1"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:text="Particulars"
+                                            android:gravity="center"
+                                            android:textStyle="bold"
+                                            android:textSize="14sp"
+                                            android:layout_height="match_parent" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:weightSum="1"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:text="Mat"
+                                            android:gravity="center"
+                                            android:textStyle="bold"
+                                            android:textSize="14sp"
+                                            android:layout_height="match_parent" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:weightSum="1"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:text="Process"
+                                            android:gravity="center"
+                                            android:textStyle="bold"
+                                            android:textSize="14sp"
+                                            android:layout_height="match_parent" />
+
+                                    </LinearLayout>
+
+
+                                    <LinearLayout
+                                        android:weightSum="1"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:text="Hardness"
+                                            android:gravity="center"
+                                            android:textStyle="bold"
+                                            android:textSize="14sp"
+                                            android:layout_height="match_parent" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:weightSum="1"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:text="No."
+                                            android:gravity="center"
+                                            android:textStyle="bold"
+                                            android:textSize="14sp"
+                                            android:layout_height="match_parent" />
+
+                                    </LinearLayout>
+
+
+                                    <LinearLayout
+                                        android:weightSum="1"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:text="Wt."
+                                            android:gravity="center"
+                                            android:textStyle="bold"
+                                            android:textSize="14sp"
+                                            android:layout_height="match_parent" />
+
+                                    </LinearLayout>
+
+
+                                    <LinearLayout
+                                        android:weightSum="1"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:layout_width="match_parent"
+                                            android:text="Add"
+                                            android:gravity="center"
+                                            android:textStyle="bold"
+                                            android:textSize="14sp"
+                                            android:layout_height="match_parent" />
+
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"></LinearLayout>
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_marginTop="15dp"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp">
+
+                                <LinearLayout
+
+
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+
+                                    <LinearLayout
+                                        android:layout_margin="3dp"
+                                        android:background="@drawable/border_attribute_specification"
+                                        android:weightSum="1"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+
+                                        <EditText
+                                            android:id="@+id/a"
+                                            android:inputType="number"
+                                            android:gravity="center"
+                                            android:layout_width="match_parent"
+                                            android:background="@null"
+                                            android:layout_height="match_parent" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_margin="3dp"
+                                        android:background="@drawable/border_attribute_specification"
+                                        android:weightSum="1"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+
+                                        <EditText
+                                            android:id="@+id/b"
+                                            android:inputType="text"
+                                            android:layout_width="match_parent"
+                                            android:background="@null"
+                                            android:layout_height="match_parent" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_margin="3dp"
+                                        android:background="@drawable/border_attribute_specification"
+                                        android:weightSum="1"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+
+                                        <EditText
+                                            android:id="@+id/c"
+                                            android:inputType="number"
+                                            android:layout_width="match_parent"
+                                            android:background="@null"
+                                            android:layout_height="match_parent" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_margin="3dp"
+                                        android:background="@drawable/border_attribute_specification"
+                                        android:weightSum="1"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+
+                                        <EditText
+                                            android:id="@+id/d"
+                                            android:inputType="text"
+                                            android:layout_width="match_parent"
+                                            android:background="@null"
+                                            android:layout_height="match_parent" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+
+
+                                        android:layout_margin="3dp"
+                                        android:background="@drawable/border_attribute_specification"
+                                        android:weightSum="1"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:orientation="horizontal"
+                                            android:layout_height="match_parent">
+
+                                            <LinearLayout
+                                                android:layout_weight="1"
+                                                android:layout_width="0dp"
+                                                android:layout_height="match_parent">
+
+                                                <EditText
+                                                    android:id="@+id/e"
+                                                    android:gravity="center"
+
+                                                    android:inputType="number"
+                                                    android:layout_width="match_parent"
+                                                    android:background="@null"
+                                                    android:layout_height="match_parent" />
+
+
+                                            </LinearLayout>
+
+                                            <View
+                                                android:layout_width="1dp"
+                                                android:background="@color/colorblack"
+                                                android:layout_height="match_parent">
+                                            </View>
+                                            <LinearLayout
+                                                android:layout_weight="1"
+                                                android:layout_width="0dp"
+                                                android:layout_height="match_parent">
+
+                                                <EditText
+                                                    android:id="@+id/f"
+                                                    android:inputType="number"
+                                                    android:gravity="center"
+                                                    android:layout_width="match_parent"
+                                                    android:background="@null"
+                                                    android:layout_height="match_parent" />
+
+                                            </LinearLayout>
+                                        </LinearLayout>
+
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_margin="3dp"
+                                        android:background="@drawable/border_attribute_specification"
+                                        android:weightSum="1"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+
+                                        <EditText
+                                            android:id="@+id/g"
+                                            android:inputType="number"
+                                            android:gravity="center"
+
+                                            android:layout_width="match_parent"
+                                            android:background="@null"
+                                            android:layout_height="match_parent" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+
+                                        android:layout_margin="3dp"
+                                        android:background="@drawable/border_attribute_specification"
+                                        android:weightSum="1"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+
+                                        <EditText
+                                            android:id="@+id/h"
+                                            android:inputType="number"
+                                            android:layout_width="match_parent"
+                                            android:background="@null"
+                                            android:layout_height="match_parent" />
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_margin="3dp"
+
+                                        android:gravity="center"
+                                        android:weightSum="1"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent">
+
+
+                                        <ImageView
+                                            android:id="@+id/i"
+                                            android:src="@drawable/plus"
+                                            android:inputType="number"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content" />
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_marginRight="65dp"
+                                android:layout_marginTop="15dp"
+                                android:background="@drawable/border_attribute_specification"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp">
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:text="Token No."
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="14sp"
+                                        android:layout_height="match_parent" />
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:background="@color/colorblack"
+                                    android:layout_height="match_parent">
+                                </View>
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:text="Particulars"
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="14sp"
+                                        android:layout_height="match_parent" />
+
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:background="@color/colorblack"
+                                    android:layout_height="match_parent">
+                                </View>
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:text="Mat"
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="14sp"
+                                        android:layout_height="match_parent" />
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:background="@color/colorblack"
+                                    android:layout_height="match_parent">
+                                </View>
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:text="Process"
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="14sp"
+                                        android:layout_height="match_parent" />
+
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:background="@color/colorblack"
+                                    android:layout_height="match_parent">
+                                </View>
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:text="Hardness"
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="14sp"
+                                        android:layout_height="match_parent" />
+
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:background="@color/colorblack"
+                                    android:layout_height="match_parent">
+                                </View>
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:text="No."
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="14sp"
+                                        android:layout_height="match_parent" />
+
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:background="@color/colorblack"
+                                    android:layout_height="match_parent">
+                                </View>
+
+                                <LinearLayout
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent">
+
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:text="Wt."
+                                        android:gravity="center"
+                                        android:textStyle="bold"
+                                        android:textSize="14sp"
+                                        android:layout_height="match_parent" />
+
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="1dp"
+                                    android:background="@color/colorblack"
+                                    android:layout_height="match_parent">
+                                </View>
+
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <android.support.v7.widget.RecyclerView
+                                    android:id="@+id/rv_recyclerview"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_centerInParent="true"
+                                    android:layout_gravity="center" />
+
+                            </LinearLayout>
+
+
+
+
+
+                        </LinearLayout>
+
+
+                    </FrameLayout>
+
+                </android.support.v4.widget.NestedScrollView>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
